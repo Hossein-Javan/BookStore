@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Domain", "Shop.Domain\Shop.Domain.csproj", "{33B02D00-1C8A-4BEE-AA84-47722AE2E2A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Domain", "Shop.Domain\Shop.Domain.csproj", "{33B02D00-1C8A-4BEE-AA84-47722AE2E2A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Application", "Shop.Application\Shop.Application.csproj", "{FE5B8302-1B84-426C-BE22-FF5379B46F2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Application", "Shop.Application\Shop.Application.csproj", "{FE5B8302-1B84-426C-BE22-FF5379B46F2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Infrastructure", "Shop.Infrastructure\Shop.Infrastructure.csproj", "{503703C9-0658-467B-A624-F715F3B88CF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Infrastructure", "Shop.Infrastructure\Shop.Infrastructure.csproj", "{503703C9-0658-467B-A624-F715F3B88CF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Query", "Shop.Query\Shop.Query.csproj", "{F28A2CB4-A229-47D8-95BB-6E678C16B786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Query", "Shop.Query\Shop.Query.csproj", "{F28A2CB4-A229-47D8-95BB-6E678C16B786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Presentation.facade", "Shop.Presentation.facade\Shop.Presentation.facade.csproj", "{A5C3C3A9-60AB-4B9E-9947-C6D4B2474F26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Presentation.facade", "Shop.Presentation.facade\Shop.Presentation.facade.csproj", "{A5C3C3A9-60AB-4B9E-9947-C6D4B2474F26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{E8F92C88-A29A-4CDC-9F6A-BB30306071F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Domain", "Common\Common.Domain\Common.Domain.csproj", "{59292C53-D399-45AA-B5B1-A2C5579AC267}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +43,16 @@ Global
 		{A5C3C3A9-60AB-4B9E-9947-C6D4B2474F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5C3C3A9-60AB-4B9E-9947-C6D4B2474F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5C3C3A9-60AB-4B9E-9947-C6D4B2474F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59292C53-D399-45AA-B5B1-A2C5579AC267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59292C53-D399-45AA-B5B1-A2C5579AC267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59292C53-D399-45AA-B5B1-A2C5579AC267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59292C53-D399-45AA-B5B1-A2C5579AC267}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59292C53-D399-45AA-B5B1-A2C5579AC267} = {E8F92C88-A29A-4CDC-9F6A-BB30306071F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6814B1F8-0697-4B44-BE6A-6D2633FA94A5}
